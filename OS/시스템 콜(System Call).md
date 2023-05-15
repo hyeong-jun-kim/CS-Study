@@ -26,7 +26,8 @@
 
 CPU에 있는 Mode bit로 모드를 구분하여 `0은 '커널모드(kernel mode)'`, `1은 '사용자모드 (user mode)'`로 나뉘어서 구동된다. 운영체제에서 프로그램이 구동되는데 있어서 파일을 읽어오거나, 파일을 쓰거나, 혹은 화면에 메세지를 출력하는 등 많은 부분이 커널 모드를 사용한다.
 
-![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXCpPP%2FbtqB1GSHhhq%2Fs4VIsQfMFFKy14SiFKUy4K%2Fimg.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXCpPP%2FbtqB1GSHhhq%2Fs4VIsQfMFFKy14SiFKUy4K%2Fimg.png" height="230px" width="350px">
+
 *위 그림과 같이 사용자 process는 User Mode에서 실행되다가 시스템 자원을 사용해야할 때 시스템 콜을 호출해서 커널 모드로 전환되어 작업을 수행하고 완료 시 다시 사용자 모드로 전환한다.*
 
 
