@@ -21,7 +21,7 @@ CPU 들은 각 프로세스들에 대해서 구분할 수 있어야 관리가 �
 
 #### 프로세스 메타데이터
 
-<img src="https://velog.velcdn.com/images%2Fhaero_kim%2Fpost%2F8985c46a-6544-4f0e-a625-1cc691623163%2Fimg%20(7).png" height="350px" width="250px"> <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcMVv6X%2FbtrLy2kTWnl%2FSkYsB1Lqot2vIwKbz3K3KK%2Fimg.png" height="300px" width="350px">
+<img src="https://velog.velcdn.com/images%2Fhaero_kim%2Fpost%2F8985c46a-6544-4f0e-a625-1cc691623163%2Fimg%20(7).png" height="550px" width="450px"> <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcMVv6X%2FbtrLy2kTWnl%2FSkYsB1Lqot2vIwKbz3K3KK%2Fimg.png" height="500px" width="550px">
 
 - **`포인터`**
 프로세스의 현재 위치를 저장하는 포인터 정보.
@@ -49,7 +49,7 @@ CPU 들은 각 프로세스들에 대해서 구분할 수 있어야 관리가 �
 ## PCB(Process Control Block)
 > 운영체제가 프로세스를 제어하기 위해 프로세스들의 메타데이터를 저장하는 곳
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png" height="300px" width="350px"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0biNS%2FbtrLyYCTKIy%2F8sQYRMkPbGcVvegS84FnX0%2Fimg.png" height="300px" width="350px">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png" height="500px" width="550px"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0biNS%2FbtrLyYCTKIy%2F8sQYRMkPbGcVvegS84FnX0%2Fimg.png" height="500px" width="550px">
 
 CPU 에서는 프로세스의 상태에 따라 프로세스 교체작업이 이루어지게 된다.
 
@@ -79,7 +79,7 @@ PCB List Head에 PCB가 생성될 때마다 하나씩 데이터가 붙게 된다
 ## Context Switching
 > 실행중이던 프로세스의 상태를 PCB 에 보관하고, 새로 들어오는 프로세스의 PCB 정보를 바탕으로 레지스터에 값을 적재하는 과정
 
-<img src="https://afteracademy.com/images/what-is-context-switching-in-operating-system-context-switching-flow.png" height="300px" width="450px">
+<img src="https://afteracademy.com/images/what-is-context-switching-in-operating-system-context-switching-flow.png" height="700px" width="850px">
 
 #### 왜 Context Switching이 필요할까?
 컴퓨터가 매번 하나의 작업만 처리할 수 있다면? 해당 작업이 끝날때까지 다음 작업은 기다릴 수 밖에 없다. 또한 반응속도가 매우 느리고 사용하기 불편하다.
