@@ -24,32 +24,32 @@ CPU 들은 각 프로세스들에 대해서 구분할 수 있어야 관리가 �
 <img src="https://velog.velcdn.com/images%2Fhaero_kim%2Fpost%2F8985c46a-6544-4f0e-a625-1cc691623163%2Fimg%20(7).png" height="550px" width="450px"> <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcMVv6X%2FbtrLy2kTWnl%2FSkYsB1Lqot2vIwKbz3K3KK%2Fimg.png" height="500px" width="550px">
 
 - **`포인터`**
-프로세스의 현재 위치를 저장하는 포인터 정보.
+= 프로세스의 현재 위치를 저장하는 포인터 정보.
 
 - **`프로세스 상태`**
-프로세스의 각 상태 (생성(New), 준비(Ready), 실행(Running), 대기(Waiting), 종료(Terminated))를 저장.
+= 프로세스의 각 상태 (생성(New), 준비(Ready), 실행(Running), 대기(Waiting), 종료(Terminated))를 저장.
 
 - **`프로세스 번호`**
-모든 프로세스에는 프로세스 식별자를 저장하는 프로세스 ID 또는 PID라는 고유 한 ID가 할당.
+= 모든 프로세스에는 프로세스 식별자를 저장하는 프로세스 ID 또는 PID라는 고유 한 ID가 할당.
 
 - **`프로그램 카운터`**
-프로세스를 위해 실행될 다음 명령어의 주소를 포함하는 카운터를 저장.
+= 프로세스를 위해 실행될 다음 명령어의 주소를 포함하는 카운터를 저장.
 
 - **`레지스터`**
-누산기, 베이스, 레지스터 및 범용 레지스터를 포함하는 CPU 레지스터에 있는 정보.
+= 누산기, 베이스, 레지스터 및 범용 레지스터를 포함하는 CPU 레지스터에 있는 정보.
 
 - **`메모리 제한`**
-운영 체제에서 사용하는 메모리 관리 시스템에 대한 정보를 포함. ex) 페이지 테이블, 세그먼트 테이블 등.
+= 운영 체제에서 사용하는 메모리 관리 시스템에 대한 정보를 포함. ex) 페이지 테이블, 세그먼트 테이블 등.
 
 - **`열린 파일 목록`**
-프로세스를 위해 열린 파일 목록을 포함.
+= 프로세스를 위해 열린 파일 목록을 포함.
 
 .
 
 ## PCB(Process Control Block)
 > 운영체제가 프로세스를 제어하기 위해 프로세스들의 메타데이터를 저장하는 곳
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png" height="500px" width="550px"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0biNS%2FbtrLyYCTKIy%2F8sQYRMkPbGcVvegS84FnX0%2Fimg.png" height="500px" width="550px">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png" height="400px" width="450px"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb0biNS%2FbtrLyYCTKIy%2F8sQYRMkPbGcVvegS84FnX0%2Fimg.png" height="400px" width="450px">
 
 CPU 에서는 프로세스의 상태에 따라 프로세스 교체작업이 이루어지게 된다.
 
@@ -79,7 +79,7 @@ PCB List Head에 PCB가 생성될 때마다 하나씩 데이터가 붙게 된다
 ## Context Switching
 > 실행중이던 프로세스의 상태를 PCB 에 보관하고, 새로 들어오는 프로세스의 PCB 정보를 바탕으로 레지스터에 값을 적재하는 과정
 
-<img src="https://afteracademy.com/images/what-is-context-switching-in-operating-system-context-switching-flow.png" height="700px" width="850px">
+<img src="https://afteracademy.com/images/what-is-context-switching-in-operating-system-context-switching-flow.png" height="650px" width="850px">
 
 #### 왜 Context Switching이 필요할까?
 컴퓨터가 매번 하나의 작업만 처리할 수 있다면? 해당 작업이 끝날때까지 다음 작업은 기다릴 수 밖에 없다. 또한 반응속도가 매우 느리고 사용하기 불편하다.

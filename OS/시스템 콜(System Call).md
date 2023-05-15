@@ -3,7 +3,7 @@
 ## 커널 (Kernel)
 > *커널은 운영체제 중 항상 메모리에 올라가 있는 운영체제의 **핵심** 부분으로써 하드웨어와 응용 프로그램 사이에서 **인터페이스**를 제공하는 역할을 하며 컴퓨터 **자원들을 관리**하는 역할을 한다.*
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png" height="230px" width="300px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1200px-Kernel_Layout.svg.png" height="430px" width="500px">
 
 컴퓨터 전원을 켜면 운영체제는 이와 동시에 수행되며 메모리에 올라가게 된다.
 
@@ -26,7 +26,7 @@
 
 CPU에 있는 Mode bit로 모드를 구분하여 `0은 '커널모드(kernel mode)'`, `1은 '사용자모드 (user mode)'`로 나뉘어서 구동된다. 운영체제에서 프로그램이 구동되는데 있어서 파일을 읽어오거나, 파일을 쓰거나, 혹은 화면에 메세지를 출력하는 등 많은 부분이 커널 모드를 사용한다.
 
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXCpPP%2FbtqB1GSHhhq%2Fs4VIsQfMFFKy14SiFKUy4K%2Fimg.png" height="230px" width="350px">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXCpPP%2FbtqB1GSHhhq%2Fs4VIsQfMFFKy14SiFKUy4K%2Fimg.png" height="430px" width="550px">
 
 *위 그림과 같이 사용자 process는 User Mode에서 실행되다가 시스템 자원을 사용해야할 때 시스템 콜을 호출해서 커널 모드로 전환되어 작업을 수행하고 완료 시 다시 사용자 모드로 전환한다.*
 
