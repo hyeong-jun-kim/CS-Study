@@ -22,7 +22,7 @@
 - CLI : 글자의 입출력을 통해 사용자와 컴퓨터 간 소통하는 방식<br>대표적인 CLI로는 윈도우의 cmd, 맥의 terminal, 리눅스의 terminal
 
 
-<img width="50%" height="50%" src ="https://hackmd.io/_uploads/HJpiK6yH3.png"></img>
+<img width="50%" height="50%" src ="https://github.com/hyeong-jun-kim/CS-Study/assets/76768480/ba7bc582-f1da-4afd-8094-5b33e8dc2a01"></img>
 
 #### (2) 사용자 계정 관리
 사용자 별로 프라이버시와 보안을 위해 개인 파일에 대해선 다른 사용자가 접근할 수 없도록 관리하며, 파일이나 시스템 자원에 접근 권한을 지정할 수 있도록 지원한다.
@@ -56,7 +56,7 @@ TCP/IP 기반의 인터넷에 연결하거나, 응용 프로그램이 네트워�
 ---
 
 ## 📘 운영체제의 구조
-![](https://hackmd.io/_uploads/SJ5Cs61rh.png)
+<img src = "https://github.com/hyeong-jun-kim/CS-Study/assets/76768480/da7b71dd-1181-4c82-98ca-6cf6076b30b9"/>
 ### 1) 인터페이스
 사용자가 직접 커널에 접근할 수 없으므로 인터페이스를 사용해 커널에 명령을 내리고 결과를 전달받는다.
 ### 2) 커널
