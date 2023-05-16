@@ -6,7 +6,8 @@
 계산을 할 때는 CPU가 필요하지만, I/O를 할 때는 필요 없다. 이때, CPU를 다른 프로세스가 이용하면 전체적인 시스템의 효율은 올라간다. 즉, `CPU를 여러 프로세스가 번갈아가면서 사용하면 효율적일 수 있다`.
 
 ## 스케쥴러의 종류
-![스케쥴러의 종류](https://hackmd.io/_uploads/BybOVsxr3.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/f6fca19b-265b-4318-b706-a0e3bdef67be)
+
 
 ### 단기 스케줄러
 - 메모리 내부에 있는, **실행 준비(Ready) 상태 프로세스 중에서 한 프로세스를 선택하여 CPU에 할당**하는 것을 의미한다.
@@ -38,7 +39,8 @@
 ### 비선점형 스케쥴링
 ### 1. FIFO (First In, First Out) : non-preemptive 스케줄러
 처음 들어온 프로세스가 처음으로 실행된다. 들어온 작업이 무엇이든 먼저 들어온 작업이 있다면, 그 작업이 수행된 뒤에 새로운 작업이 수행된다.
-![FCFS](https://hackmd.io/_uploads/HkzujsxSh.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/6aed763a-8a8f-49ea-8075-1091ab388cbb)
 
 위의 예는 A, B, C가 모두 0초에 도달했다고 하면
 A는 Turnaround Time이 100초, Response Time은 0초이다.
@@ -50,7 +52,8 @@ C는 Turnaround Time은 120초, Response Time은 110초이다.
 평균으로, **Turnaround Time의 평균은 110초, Response Time의 평균은 70초**이다.
 
 **예시**
-![FCFS 예시](https://hackmd.io/_uploads/H18Vhigr2.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/16adfb10-06ab-40aa-8154-085743cd471c)
 
 위의 그림에서 철수는 껌만 계산할려고 하는데, 먼저 계산할려고 해도 FCFS 방법은 먼저 온 요청만 처리하기 때문에 먼저 줄 서 사람부터만 계산을 할 수 있다.
 
@@ -60,7 +63,9 @@ FCFS 방법은 먼저 온 요청을 처리하기 때문에, 대단히 합리적�
 
 수행시간이 짧게 걸리는 프로세스부터 순서대로 실행하는 스케줄러이다.
 FIFO에서 발생한 convoy effect를 해결하는 방법으로 수행시간이 짧은 애들부터 수행하려고 한다.
-![SJF](https://hackmd.io/_uploads/S13PTjlSn.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/2c36518e-c087-48d1-900a-5067b75e8907)
+
 A,B,C는 모두 0초에 도착했고, 아까와 다른점은 동시에 도착했을 때 알파벳 순으로 수행하는 것이 아닌 수행 시간이 짧은 애들을 먼저 실행한다.
 
 A는 Turnaround Time은 120초, Response Time은 20초이다.
@@ -73,7 +78,8 @@ C는 Turnaround Time은 20초, Response Time은 10초이다.
 > Turnaround Time의 평균이 줄어들게 된 것을 볼 수 있다. SJF는 항상 가장 짧은 프로세스를 먼저 실행하기 때문에 항상 최적의 Turnaround Time을 가져다 줄 수 있다.
 
 **하지만 단점은 이를 없애버릴 정도로 크다.**
-![SJF 단점](https://hackmd.io/_uploads/r1thColB2.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/93cdb852-4a4f-4657-9f5b-346c3ccb9150)
 
 아까와 달라진 점은 B,C의 도착 시간이 0초가 아니고 `10초`라는 점이다 .
 
@@ -92,7 +98,9 @@ C의 Turnaround Time은 110초, Response Time은 100초이다.
 즉, 어떤 작업이 현재 수행되고 있는 작업보다 짧아도 늦게 도착하면 수행되기 위해 기다려야한다. 이를 어떻게 해결할 수 있을까?
 
 **예시**
-![SJF 예시](https://hackmd.io/_uploads/HJ4-WneS2.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/45a303c8-e1a8-49a3-b247-b018c57f357b)
+
 철수는 A 아주머니가 계산하는 도중에 껌을 계산하기 위해 A 아주머니 바로 뒤에 설 수 있다. 왜냐면 껌 하나만 들고 있으니까 CPU burst time이 짧기 때문이다.
 
 만약에 A 아주머니가 물건을 1000개 들고있는데 아직 2개까지 계산을 안하면 계속 기다려야한다. 그래서 먼저 계산하고 싶다고 말하고 싶지만, SJF 방식은 비선점형 방식이기 때문에 계산하고 있다면 중간에 교체가 안된다.
@@ -103,7 +111,9 @@ C의 Turnaround Time은 110초, Response Time은 100초이다.
 > 선점 스케줄러는 어떤 작업을 수행하는 도중에 다른 작업을 수행할 수 있도록 스케줄링할 수 있는 스케줄러를 말한다.
 ### 1. STCF (Shortest Time-to-Completion First) : preemtive 스케줄러
 `특정 시점에서 가장 빨리 수행될 수 있는 프로세스를 먼저 실행`하는 스케줄러
-![STCF](https://hackmd.io/_uploads/rkY1mheBh.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/cb7c0f2c-c549-4381-902f-7b2dc5b9f24f)
+
 STCF는 10초에서 A를 계속 수행하는 것이 아닌, 그 시점에서 가장 빨리 수행될 수 있는 B,C가 먼저 수행되는 것을 볼 수 있다.
 
 A의 Turnaround Time의 평균은 50초, Response Time은 0초이다.
@@ -116,16 +126,20 @@ C의 Turnaround Time은 20초, Response Time은 10초이다.
 아까 SJF를 사용할 때보다 더 효율적으로 동작하는 것을 볼 수 있다.
 
 **예시**
-![STCF 예시](https://hackmd.io/_uploads/ryaz4neS3.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/7697be3b-8a5e-44a6-80d2-cdb0d41a7d98)
+
 이제 철수는 A 아주머니한테 양해를 구해 껌을 바로 계산할 수 있다. 그리고 B 아주머니의 사과가 더 작기 때문에 A 아주머니한테 양해를 구해 먼저 게산할 수 있다.
 
-![STCF 단점](https://hackmd.io/_uploads/BkSuEnlr3.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/2c0a5c2e-8421-408b-aa67-fc9961ac22bc)
+
 그런데 만약 껌만 사려고 하는 사람이 계속해서 줄을 서면, A 아주머니는 **영원히 계산 못하는 상황이 발생**할 수 있다.
 
 이러한 상황을 `기아현상`이라고 한다.
 
 ### 2. SJF에서의 Response Time 구하기
-![SJF_Response Time](https://hackmd.io/_uploads/ByT0HhgBn.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/578dc777-f14e-4684-bc7d-244ac325b5e5)
+
 위의 예는 A, B, C가 동시에 도착했고, 모두 5초의 실행시간을 가진 작업이다. 
 
 Response Time으로 A는 0초, B는 5초, C는 10초 걸렸다. 평균 Response Time은 5초이다.
@@ -135,11 +149,13 @@ Response Time으로 A는 0초, B는 5초, C는 10초 걸렸다. 평균 Response 
 ### 3. Round Robin : preemptive 스케줄러
 RR은 어떤 작업이 수행될 때 끝날 때까지 수행하는 것이 아닌, `정해진 시간 만큼만 수행하는 스케줄러`이다.
 **정해진 시간을 수행한 뒤에는 다른 작업을 수행**하게 된다.
-![Round Robin](https://hackmd.io/_uploads/HySiUhxS3.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/6d7c8ef4-213e-4da0-92b8-860c7156f163)
 
 A, B, C가 0초에 동시에 도착했으며 모두 5초의 실행시간을 가진 작업이다.
 이때 time slice가 1초로 설정된 RR로 처리하면 아래와 같이 결과가 나타나게 된다.
-![RR-Time_slice](https://hackmd.io/_uploads/H1DOPhlrn.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/09312385-071e-4603-9bfd-ede5b7c14b87)
 
 A의 Turnaround Time은 13초이다.
 B의 Turnaround Time은 14초이다.
@@ -177,7 +193,9 @@ A는 0초, B는 1초, C는 2초로 평균 RT는 1초이다.
 
 ### 규칙 1, 2
 우선순위를 변경해주지 않으면 발생하는 문제
-![](https://hackmd.io/_uploads/BkHoT0lSn.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/7e5ead5f-90f0-4675-9703-7c4abb0a2579)
+
 MLFQ는 우선순위에 따라 스케줄링 된다고 했으니, A, B가 가장 먼저 RR 방식으로 수행될 것이다.
 그러면 **A, B가 완료될 때 까지는 C, D는 스케줄링 되지 않는다**는 말이다.
 만약 A, B가 아주 오래걸리는 작업이면 C, D의 Response Time은 급격히 나빠지는데 이러한 현상을 어떻게 방지할 수 있을까?
@@ -194,7 +212,9 @@ MLFQ는 우선순위에 따라 스케줄링 된다고 했으니, A, B가 가장 
 그러다 잠시후,이 작업이 더이상 **I/O를 발생하지 않고 CPU만 계속 사용한다면 MLFQ는 다시 우선순위를 낮게 설정**해준다.
 
 *하지만, 이 방법에도 문제는 존재한다.*
-![](https://hackmd.io/_uploads/ryShy1-S3.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/1cade332-baef-4513-ae9b-b59d71fe9b46)
+
 A: 엄청 긴 작업
 B: 1초마다 I/O를 수행하는 작업
 
@@ -208,7 +228,8 @@ B작업은 10초의 time slice를 수행하기 전에 I/O를 요청하기 때문
 
 ### 기아 문제 해결 - 규칙 5. Priority Boost
 * 기아 문제를 해결하기 위해 위 규칙을 만들었지만, 프로그램이 수행되던 중 특성이 변하는 문제도 해결할 수 있다. 
-![](https://hackmd.io/_uploads/HJGkbkZSn.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/58d09148-ec8f-4b4b-9405-a4f1ae8524dc)
+
 **A: 100초까지는 CPU를 사용하다가, 100초 이후에는 I/O를 사용하는 작업**
 
 `왼쪽`이 **priority boost를 적용하지 않는 상황**이고, `오른쪽`이 **50초마다 priority boost를 적용한 상황**이다. 
@@ -227,7 +248,8 @@ B작업은 10초의 time slice를 수행하기 전에 I/O를 요청하기 때문
 이 문제를 해결하기 위해 규칙 4는 이 둘을 통합하여 만들어졌다.
 
 * 규칙 4 : 작업은 모든 우선순위에서 주어진 time slice를 모두 사용하면 우선순위가 감소한다.
-![](https://hackmd.io/_uploads/HkcGQyZSn.png)
+
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/3693bff4-67f0-4f18-a1d3-3b18ff814e9e)
 
 위의 그림에서 왼쪽이 기존의 규칙을 적용한 상황이고, 오른쪽이 새로운 규칙을 정의한 상황이다.
 
