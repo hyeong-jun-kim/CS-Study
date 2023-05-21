@@ -27,11 +27,18 @@
 ## 운영체제 📌
 | 주차  | 제목                                                                                                                                                               | 발표자 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 1주차 | [운영체제란]()                                 | 채안나 |
-|     | [프로세스 vs 스레드]()                                                               | 김형준 |
-|     | [프로세스 주소 공간]() | 채안나 |
-|     | [인터럽트(Interrupt)]()                                         | 안수빈 |
-|     | [시스템 콜(System Call)]()                                                   | 이승희 |
-|     | [PCB와 Context Switching]()                                                                                   | 이승희 |
-|     | [IPC(Inter Process Communication)]()                                                           | 안수빈 |
-|     | [CPU 스케줄링]()                                                           | 김형준 |
+| 1주차 | [운영체제란](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Operating%20System.md)                                 | 채안나 |
+|     | [프로세스 vs 스레드](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20vs%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)                                                               | 김형준 |
+|     | [프로세스 주소 공간](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Process%20Address%20Space.md) | 채안나 |
+|     | [인터럽트(Interrupt)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8(Interrupt).md)                                         | 안수빈 |
+|     | [시스템 콜(System Call)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C(System%20Call).md)                                                   | 이승희 |
+|     | [PCB와 Context Switching](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/PCB%EC%99%80%20Context%20Switching.md)                                                                                   | 이승희 |
+|     | [IPC(Inter Process Communication)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/IPC(Inter%20Process%20Communication).md)                                                           | 안수빈 |
+|     | [CPU 스케줄링](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)                                                           | 김형준 |
+| 2주차 | [데드락(Deadlock)]()                                 | 김형준 |
+|     | [Race Condition]()                                                               | 김형준 |
+|     | [세마포어(Semaphore) & 뮤텍스(Mutex)]() | 이승희 |
+|     | [페이징 & 세그먼테이션 (PDF)]()                                         | 안수빈 |
+|     | [페이지 교체 알고리즘]()                                                   | 안수빈 |
+|     | [메모리(Memory)]()                                                                                   | 채안나 |
+|     | [파일 시스템]()                                                           | 채안나 |
