@@ -9,7 +9,7 @@
 - 메모리에 올라와 실행되고 있는 프로그램 인스턴스
 
 **특징**
-![프로세스 메모리 구조](https://hackmd.io/_uploads/Sy0Yf7cEn.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/bda19568-208d-4200-839d-a0d63c77522e)
 - 프로세스는 각각 독립된 영역 (**Code, Data, Stack, Heap**의 영역을 할당받는다.)
 - 기본적으로 프로세스당 최소 *1개*의 스레드를 가지고있다.
 - 각 프로세스는 별도의 주소 공간에서 실행되며, 한 프로세스는 다른 프로세스의 변수나 자료구조에 접근할 수 없다.
@@ -20,7 +20,7 @@
 - 프로세스 내에서 실행되는 여러 흐름의 단위
 
 **스레드 구조**
-![스레드 구조](https://hackmd.io/_uploads/HyVhV79Vh.png)
+![image](https://github.com/hyeong-jun-kim/CS-Study/assets/53989167/1cca6565-1dc8-4f71-9638-c2d863536b23)
 - 스레드는 프로세스 내에서 각각 Stack만 할당받고, **Code, Data, Heap의 영역은 공유**한다
 - 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만, 힙 메모리는 서로 읽고 쓸 수 있다.
 
