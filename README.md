@@ -35,10 +35,10 @@
 |     | [PCB와 Context Switching](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/PCB%EC%99%80%20Context%20Switching.md)                                                                                   | 이승희 |
 |     | [IPC(Inter Process Communication)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/IPC(Inter%20Process%20Communication).md)                                                           | 안수빈 |
 |     | [CPU 스케줄링](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)                                                           | 김형준 |
-| 2주차 | [데드락(Deadlock)]()                                 | 김형준 |
-|     | [Race Condition]()                                                               | 김형준 |
-|     | [세마포어(Semaphore) & 뮤텍스(Mutex)]() | 이승희 |
-|     | [페이징 & 세그먼테이션 (PDF)]()                                         | 안수빈 |
-|     | [페이지 교체 알고리즘]()                                                   | 안수빈 |
-|     | [메모리(Memory)]()                                                                                   | 채안나 |
-|     | [파일 시스템]()                                                           | 채안나 |
+| 2주차 | [데드락(Deadlock)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EB%8D%B0%EB%93%9C%EB%9D%BD(Deadlock).md)                                 | 김형준 |
+|     | [Race Condition](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EA%B2%BD%EC%9F%81%20%EC%83%81%ED%83%9C(Race%20Condition).md)                                                               | 김형준 |
+|     | [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md) | 이승희 |
+|     | [페이징 & 세그먼테이션 (PDF)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Paging%20and%20Segmentation.md)                                         | 안수빈 |
+|     | [페이지 교체 알고리즘](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)                                                   | 안수빈 |
+|     | [메모리(Memory)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Memory.md)                                                                                   | 채안나 |
+|     | [파일 시스템](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/File%20System.md)                                                           | 채안나 |
