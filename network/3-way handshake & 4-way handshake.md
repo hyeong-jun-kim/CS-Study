@@ -186,3 +186,9 @@ RST(TCP Reset) 세그먼트가 전송되면 갑작스러운 연결 해제가 수
 **⇒ 서버는 ACK 받은 후 소켓 닫음 (`CLOSED`)**
 
 **⇒ `TIME_WAIT` 끝나면 클라이언트도 닫음 (`CLOSED`)**
+
+---
+
+# 참고
+
+[[네트워크] TCP/UDP와 3 -Way Handshake & 4 -Way Handshake](https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake)
