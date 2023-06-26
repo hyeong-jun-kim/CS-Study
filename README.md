@@ -40,5 +40,17 @@
 |     | [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md) | 이승희 |
 |     | [페이징 & 세그먼테이션 (PDF)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Paging%20and%20Segmentation.md)                                         | 안수빈 |
 |     | [페이지 교체 알고리즘](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)                                                   | 안수빈 |
-|     | [메모리(Memory)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Memory.md)                                                                                   | 채안나 |
+|     | [메모리(Memory)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/Memory.md)                  | 채안나 |
 |     | [파일 시스템](https://github.com/hyeong-jun-kim/CS-Study/blob/main/OS/File%20System.md)                                                           | 채안나 |
+| 3주차 | [운영체제 CS 면접]                                | 김형준, 안수빈, 이승희, 채안나 |
+| 4-5주차 | [OSI 7 계층]()                                 | 이승희 |
+|     | [TCP 3 way handshake & 4 way handshake]()                                                               | 채안나 |
+|     | [TCP/IP 흐름제어 & 혼잡제어]() | 김형준 |
+|     | [페이징 & 세그먼테이션 (PDF)]()                                         | 안수빈 |
+|     | [UDP]()                                                   | 안수빈 |
+|     | [대칭키 & 공개키]()                                                                                   | 안수빈 |
+|     | [HTTP & HTTPS]()                                                           | 이승희 |
+|     | [TLS/SSL handshake]()                                                           | 안수빈 |
+|     | [로드 밸런싱(Load Balancing)]()                                                           | 이승희 |
+|     | [Blocking,Non-blocking & Synchronous,Asynchronous]()                                                           | 김형준 |
+|     | [Blocking & Non-Blocking I/O]()                                                           | 채안나 |
