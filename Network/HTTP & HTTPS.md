@@ -38,7 +38,7 @@
 
 .
 
-### HTTP Request 구조
+### HTTP Response 구조
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSGfdC%2FbtqRxZWq8iF%2Fn3TA0JZZVj58bei0lfDtbk%2Fimg.png" weight=500px height=250px>
 
 
@@ -58,7 +58,7 @@
 - 기타 등등
 
 #### body
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbiac6B%2FbtqRpuDFbql%2F4kWFxEtBvc919CiVYPyCFK%2Fimg.png" weight=600px height=150px>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbiac6B%2FbtqRpuDFbql%2F4kWFxEtBvc919CiVYPyCFK%2Fimg.png" weight=600px height=100px>
 
 - 요청에 대한 응답 값
 
