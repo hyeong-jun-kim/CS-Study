@@ -29,7 +29,7 @@
 - ACK가 loss가 발생했을 경우에는, 다시 100번 ACK를 보내준다.
 
 ![image](https://github.com/lsh9295/CS-Study/assets/53989167/ba8829c8-4752-464e-89e0-c6858730a2fc)
-- 중간에 segment loss가 발생해서 ACK가 계속 100을 호출하는 상황
+- 중간에 segment loss가 발생해서 ACK가 계속 92을 호출하는 상황
     - 이 현상을 **duplicated ACK**라고 한다.
 - 맨 마지막에는 ACK 140을 호출하게 된다.
 - sender 입장에서는 duplicated ACK를 받게되면 loss가 났다고 판단할 수 있다.
