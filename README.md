@@ -50,6 +50,14 @@
 |     | [대칭키 & 공개키](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4.md)                                                                                   | 안수빈 |
 |     | [HTTP & HTTPS](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/HTTP%20%26%20HTTPS.md)                                                           | 이승희 |
 |     | [TLS/SSL handshake](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/TLS%20%26%20SSL.md)                                                           | 안수빈 |
-|     | [로드 밸런싱(Load Balancing)](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md)                                                           | 이승희 |
-|     | [Blocking,Non-blocking & Synchronous,Asynchronous](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/BlockingNon-blocking%20%26%20SynchronousAsynchronous.md)                                                           | 김형준 |
-|     | [Blocking & Non-Blocking I/O](https://github.com/hyeong-jun-kim/CS-Study/blob/main/Network/Blocking%20IO%20%26%20Non-Blocking%20IO.md)                                                           | 채안나 |
+| 6주차 | [네트워크 CS 면접]                                | 김형준, 안수빈, 이승희, 채안나 |
+| 7주차 | [다양한 자바 플랫폼]()                                 | 이승희 |
+|     | [자바 역사와 버전별 특징]()                                                               | 김형준 |
+|     | [자바 언어의 특징]() | 채안나 |
+|     | [프로그램 실행 과정]()                                                   | 채안나 |
+|     | [JVM 아키텍처와 JMM]()                                                                                   | 김형준 |
+|     | [Garbage Collection]()                                                           | 김형준 |
+|     | [객체지향 언어의 특징]()                                                           | 이승희 |
+|     | [클래스]()                                                           | 안수빈 |
+|     | [인터페이스]()                                                           | 안수빈 |
+|     | [데이터 타입]()                                                           | 안수빈 |
