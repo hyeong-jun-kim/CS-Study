@@ -1,3 +1,4 @@
+# [기초] Stream
 ## **Collection vs Stream**
 
 **collection**은 DVD, **stream**은 인터넷 스트리밍으로 예를 들어 설명할 수 있다.
