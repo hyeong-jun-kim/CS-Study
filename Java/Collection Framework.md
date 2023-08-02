@@ -12,6 +12,8 @@
 
 <img src="https://hudi.blog/static/1bacac1babc556100455a8c64e7658da/e6c4b/2.png" width=600px />
 
+.
+
 ## Collection 인터페이스
 아래는 대표적인 Collection 공통 메서드들이다.
 
@@ -24,6 +26,8 @@
 - Iterator < E> iterator() : 해당 컬렉션의 반복자(iterator)를 반환
 - int size() : 해당 컬렉션의 요소의 총개수를 반환
 - Object [] toArray() : 해당 컬렉션의 모든 요소를 Object 타입의 배열로 반환
+
+.
     
 ## List (순서 O, 중복 O)
 > Collection을 상속받는 인터페이스
@@ -78,6 +82,8 @@ Stack에는 Vector처럼 get() set() 메서드가 있는 것도 아닌데 왜 �
 2. Vector가 필요한 상황이라면 대신 ArrayList를 사용하는 것이 바람직하다.
 3. 마찬가지로 Stack 대신 Deque의 하위컬렉션을 상황에 맞게, 혹은 그냥 ArrayList를 사용하는 것이 적절하다.
 
+.
+
 ## Set (순서 X, 중복 X)
 > Collection을 상속받는 인터페이스
 
@@ -97,9 +103,7 @@ Stack에는 Vector처럼 get() set() 메서드가 있는 것도 아닌데 왜 �
     - 	HashSet 클래스를 상속받은 LinkedList로,
 데이터에 삽입된 순서대로 데이터를 관리한다.
 
-이진탐색트리(Red-Black Tree)의 형태로 데이터를 저장한다.
-데이터 추가, 삭제에는 시간이 더 걸리지만, 검색과 정렬이 더 뛰어나다.
-기본적으로 오름차순으로 데이터를 정렬한다.
+.
 
 ## Map (순서X, 중복 키 X / 중복 데이터 O) 
 > Collection을 상속받지 않는 자료구조
@@ -124,6 +128,7 @@ Map은 컬렉션 프레임워크에서 <키(Key),값(Value)> 형식을 가지고
 
 일정한 수행시간과 삽입 순서를 유지하는 경우 **LinkedHashMap** 사용 (입력순서가 중요할 때)
 
+.
 
 ## Queue (FIFO) 
 > Collection을 상속받는 인터페이스
